@@ -1,0 +1,7 @@
+orgAllowlist: github.com/terraL0t/*
+
+github:
+  user: terratlantis
+  token: ${token} 
+  secret: ${secret}
+

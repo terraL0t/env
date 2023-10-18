@@ -1,0 +1,16 @@
+secret: ENC[AES256_GCM,data:2oyimdVRm9nDlGYjyCrloY/pYyPCTQj1ZrISpaHluSk=,iv:P0g3vOcXYVdAyzQ7m7VE6axMFvR0vrMFWrDocHuG1Uo=,tag:DI2cp+e06bXM4KIMNKszaA==,type:str]
+token: ENC[AES256_GCM,data:30qj42lFVA8JBpG5WiG+0Jul1RR3fW0TaSDiv2kdfZjMigygMrlFSw==,iv:NP5QQNUqrDlzaVbnzYPCdCn50IY7Re0YU1tZwE/pxUM=,tag:qY4U0VLnlpCfsukwT5QIUw==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+        - resource_id: projects/acm-k8s-32127/locations/global/keyRings/sops/cryptoKeys/sops-key
+          created_at: "2023-10-16T11:46:06Z"
+          enc: CiQAgxKA8NWLK0ZhGm00AxlVrv9bvLUHOlVf/kDgE0ijoLExHRsSSQDyG7haIl0g4x5TTMMFYm4AIUJvl+Gx5xej/s5ZUFsg4uu56/ZG+hhYDgbTb0x0y6ZU2ZIC2eMD8hx/ZDaY6acGqknQ/685R10=
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2023-10-16T11:46:07Z"
+    mac: ENC[AES256_GCM,data:okumFXBxtHjUqRp/friagacl34lEbYTbXKD5fVqQRaE6k/LFLGltmojhHz5I/mfTIwPlhr3X0oqlEIzzJxwFWqqAhW4SwmLTPRrGRe6fnVVKUg+z/lZIW0R8jcMQl62b8M1WNhhdtm+dIolQybRsPmtXnvwO2UT1ir3J3ZBd+94=,iv:uO+E4qziG/ElH9GRgDda7lqkFrNSyoezsM0Up8ra/u4=,tag:jFs3fGxwaQ7YgEhE2FXs6Q==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.8.1
